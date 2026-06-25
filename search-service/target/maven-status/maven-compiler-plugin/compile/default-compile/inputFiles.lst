@@ -1,0 +1,15 @@
+D:\Projects\Micros\search-service\src\main\java\ru\kubsu\flights\search\provider\FlightProvider.java
+D:\Projects\Micros\search-service\src\main\java\ru\kubsu\flights\search\repository\FavoriteOfferRepository.java
+D:\Projects\Micros\search-service\src\main\java\ru\kubsu\flights\search\dto\FlightSearchRequestDto.java
+D:\Projects\Micros\search-service\src\main\java\ru\kubsu\flights\search\repository\SearchRequestRepository.java
+D:\Projects\Micros\search-service\src\main\java\ru\kubsu\flights\search\model\SearchRequest.java
+D:\Projects\Micros\search-service\src\main\java\ru\kubsu\flights\search\model\FlightOffer.java
+D:\Projects\Micros\search-service\src\main\java\ru\kubsu\flights\search\service\SearchService.java
+D:\Projects\Micros\search-service\src\main\java\ru\kubsu\flights\search\dto\FlightOfferDto.java
+D:\Projects\Micros\search-service\src\main\java\ru\kubsu\flights\search\model\FavoriteOffer.java
+D:\Projects\Micros\search-service\src\main\java\ru\kubsu\flights\search\dto\SearchResponse.java
+D:\Projects\Micros\search-service\src\main\java\ru\kubsu\flights\search\provider\MockFlightProvider.java
+D:\Projects\Micros\search-service\src\main\java\ru\kubsu\flights\search\repository\FlightOfferRepository.java
+D:\Projects\Micros\search-service\src\main\java\ru\kubsu\flights\search\SearchServiceApplication.java
+D:\Projects\Micros\search-service\src\main\java\ru\kubsu\flights\search\controller\SearchController.java
+D:\Projects\Micros\search-service\src\main\java\ru\kubsu\flights\search\service\SearchEventConsumer.java

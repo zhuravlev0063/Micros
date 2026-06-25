@@ -1,0 +1,15 @@
+ru\kubsu\flights\search\SearchServiceApplication.class
+ru\kubsu\flights\search\provider\MockFlightProvider.class
+ru\kubsu\flights\search\model\FlightOffer.class
+ru\kubsu\flights\search\model\SearchRequest.class
+ru\kubsu\flights\search\dto\FlightOfferDto.class
+ru\kubsu\flights\search\dto\FlightSearchRequestDto.class
+ru\kubsu\flights\search\repository\FlightOfferRepository.class
+ru\kubsu\flights\search\model\FavoriteOffer.class
+ru\kubsu\flights\search\controller\SearchController.class
+ru\kubsu\flights\search\repository\FavoriteOfferRepository.class
+ru\kubsu\flights\search\dto\SearchResponse.class
+ru\kubsu\flights\search\provider\FlightProvider.class
+ru\kubsu\flights\search\repository\SearchRequestRepository.class
+ru\kubsu\flights\search\service\SearchService.class
+ru\kubsu\flights\search\service\SearchEventConsumer.class
