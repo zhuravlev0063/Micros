@@ -1,0 +1,11 @@
+target/
+.idea/
+.vscode/
+*.iml
+node_modules/
+dist/
+.env
+*.log
+rendered_section_2/
+NIR_dokumenty_razdel_2.docx
+add_section_2.py
