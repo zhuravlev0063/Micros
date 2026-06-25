@@ -1,0 +1,5 @@
+ru\kubsu\flights\gateway\GatewayConfig.class
+ru\kubsu\flights\gateway\ApiGatewayApplication.class
+ru\kubsu\flights\gateway\GatewayController.class
+ru\kubsu\flights\gateway\JwtVerifier$AuthenticatedUser.class
+ru\kubsu\flights\gateway\JwtVerifier.class

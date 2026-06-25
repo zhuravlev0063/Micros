@@ -1,0 +1,30 @@
+server:
+  port: ${SERVER_PORT:8081}
+
+spring:
+  application:
+    name: auth-service
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/flights?currentSchema=auth}
+    username: ${SPRING_DATASOURCE_USERNAME:flights}
+    password: ${SPRING_DATASOURCE_PASSWORD:flights}
+  flyway:
+    schemas: auth
+    default-schema: auth
+    create-schemas: true
+  kafka:
+    bootstrap-servers: ${SPRING_KAFKA_BOOTSTRAP_SERVERS:localhost:29092}
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      group-id: auth-service
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+app:
+  jwt:
+    secret: ${APP_JWT_SECRET:dev-secret-change-this-value-dev-secret-change-this}
+    access-token-minutes: ${APP_ACCESS_TOKEN_MINUTES:30}
+    refresh-token-days: ${APP_REFRESH_TOKEN_DAYS:14}

@@ -1,0 +1,16 @@
+ru\kubsu\flights\auth\repository\RefreshTokenRepository.class
+ru\kubsu\flights\auth\repository\UserAccountRepository.class
+ru\kubsu\flights\auth\service\AuthEventConsumer.class
+ru\kubsu\flights\auth\dto\LogoutRequest.class
+ru\kubsu\flights\auth\dto\RefreshRequest.class
+ru\kubsu\flights\auth\model\UserAccount.class
+ru\kubsu\flights\auth\dto\LoginRequest.class
+ru\kubsu\flights\auth\dto\RegisterRequest.class
+ru\kubsu\flights\auth\controller\AuthController.class
+ru\kubsu\flights\auth\config\SecurityConfig.class
+ru\kubsu\flights\auth\model\RefreshToken.class
+ru\kubsu\flights\auth\security\JwtService$TokenIssue.class
+ru\kubsu\flights\auth\service\AuthService.class
+ru\kubsu\flights\auth\AuthServiceApplication.class
+ru\kubsu\flights\auth\dto\AuthResponse.class
+ru\kubsu\flights\auth\security\JwtService.class

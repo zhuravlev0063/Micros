@@ -1,0 +1,15 @@
+D:\Projects\Micros\auth-service\src\main\java\ru\kubsu\flights\auth\dto\LoginRequest.java
+D:\Projects\Micros\auth-service\src\main\java\ru\kubsu\flights\auth\model\UserAccount.java
+D:\Projects\Micros\auth-service\src\main\java\ru\kubsu\flights\auth\repository\RefreshTokenRepository.java
+D:\Projects\Micros\auth-service\src\main\java\ru\kubsu\flights\auth\controller\AuthController.java
+D:\Projects\Micros\auth-service\src\main\java\ru\kubsu\flights\auth\service\AuthService.java
+D:\Projects\Micros\auth-service\src\main\java\ru\kubsu\flights\auth\AuthServiceApplication.java
+D:\Projects\Micros\auth-service\src\main\java\ru\kubsu\flights\auth\security\JwtService.java
+D:\Projects\Micros\auth-service\src\main\java\ru\kubsu\flights\auth\config\SecurityConfig.java
+D:\Projects\Micros\auth-service\src\main\java\ru\kubsu\flights\auth\dto\RefreshRequest.java
+D:\Projects\Micros\auth-service\src\main\java\ru\kubsu\flights\auth\dto\LogoutRequest.java
+D:\Projects\Micros\auth-service\src\main\java\ru\kubsu\flights\auth\service\AuthEventConsumer.java
+D:\Projects\Micros\auth-service\src\main\java\ru\kubsu\flights\auth\dto\AuthResponse.java
+D:\Projects\Micros\auth-service\src\main\java\ru\kubsu\flights\auth\dto\RegisterRequest.java
+D:\Projects\Micros\auth-service\src\main\java\ru\kubsu\flights\auth\model\RefreshToken.java
+D:\Projects\Micros\auth-service\src\main\java\ru\kubsu\flights\auth\repository\UserAccountRepository.java

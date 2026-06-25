@@ -1,0 +1,12 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  application:
+    name: api-gateway
+
+app:
+  auth-service-url: ${AUTH_SERVICE_URL:http://localhost:8081}
+  search-service-url: ${SEARCH_SERVICE_URL:http://localhost:8082}
+  jwt:
+    secret: ${APP_JWT_SECRET:dev-secret-change-this-value-dev-secret-change-this}
