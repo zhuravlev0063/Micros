@@ -1,0 +1,364 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #17202a;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f6f8fb;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+  opacity: 0.65;
+}
+
+.auth-screen {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background:
+    linear-gradient(rgba(246, 248, 251, 0.88), rgba(246, 248, 251, 0.96)),
+    url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1800&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 24px;
+}
+
+.auth-panel {
+  width: min(440px, 100%);
+  border: 1px solid #d8e0ea;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 28px;
+  box-shadow: 0 20px 50px rgba(23, 32, 42, 0.14);
+}
+
+.brand-mark,
+.small-mark {
+  display: grid;
+  place-items: center;
+  background: #087f8c;
+  color: #ffffff;
+}
+
+.brand-mark {
+  width: 58px;
+  height: 58px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+.small-mark {
+  width: 42px;
+  height: 42px;
+  border-radius: 6px;
+}
+
+.auth-panel h1,
+.topbar h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.auth-subtitle,
+.topbar p,
+.muted {
+  color: #667085;
+}
+
+.auth-subtitle {
+  margin: 10px 0 20px;
+}
+
+.segmented {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #d6dee8;
+  border-radius: 6px;
+  padding: 4px;
+  margin-bottom: 18px;
+}
+
+.segmented button,
+.user-area button,
+.offer-price button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  color: #17202a;
+  padding: 10px 12px;
+}
+
+.segmented button.active {
+  background: #087f8c;
+  color: #ffffff;
+}
+
+.auth-form,
+.search-form {
+  display: grid;
+  gap: 14px;
+}
+
+.two-columns,
+.search-form {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.two-columns {
+  display: grid;
+  gap: 12px;
+}
+
+label {
+  display: grid;
+  gap: 7px;
+  font-size: 14px;
+  color: #1f2937;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 12px 13px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #087f8c;
+  box-shadow: 0 0 0 3px rgba(8, 127, 140, 0.14);
+}
+
+.primary-button {
+  border: 0;
+  border-radius: 6px;
+  background: #f25f5c;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 13px 18px;
+}
+
+.auth-form .primary-button {
+  margin-top: 4px;
+}
+
+.error-box,
+.notice-box,
+.empty-state {
+  border-radius: 6px;
+  padding: 14px;
+}
+
+.error-box {
+  margin: 16px 0 0;
+  background: #fff1f1;
+  color: #b42318;
+}
+
+.notice-box,
+.empty-state {
+  background: #eef4ff;
+  color: #344054;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.topbar {
+  border-bottom: 1px solid #d8e0ea;
+  background: #ffffff;
+}
+
+.topbar-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 24px;
+}
+
+.app-title,
+.user-area,
+.section-heading,
+.summary-band div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.topbar p {
+  margin: 4px 0 0;
+  font-size: 14px;
+}
+
+.user-area button {
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+}
+
+.summary-band {
+  max-width: 1180px;
+  margin: 20px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  padding: 0 24px;
+}
+
+.summary-band div {
+  border: 1px solid #d8e0ea;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 16px;
+  color: #087f8c;
+}
+
+.summary-band span {
+  color: #17202a;
+  font-weight: 600;
+}
+
+.workspace {
+  max-width: 1180px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 18px;
+  padding: 0 24px 30px;
+}
+
+.search-panel,
+.results-panel,
+.history-panel {
+  border: 1px solid #d8e0ea;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 20px;
+}
+
+.search-panel,
+.results-panel {
+  grid-column: 1;
+}
+
+.history-panel {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: start;
+}
+
+.section-heading {
+  margin-bottom: 16px;
+  color: #087f8c;
+}
+
+.section-heading h2,
+.history-panel h2 {
+  margin: 0;
+  color: #17202a;
+  font-size: 19px;
+}
+
+.search-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.2fr 0.8fr auto;
+  align-items: end;
+}
+
+.offers-list {
+  display: grid;
+  gap: 12px;
+}
+
+.offer-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  border: 1px solid #e5eaf0;
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.offer-card h3,
+.offer-card p {
+  margin: 0 0 7px;
+}
+
+.offer-price {
+  min-width: 180px;
+  display: grid;
+  justify-items: end;
+  align-content: center;
+  gap: 12px;
+}
+
+.offer-price strong {
+  color: #f25f5c;
+  font-size: 24px;
+}
+
+.offer-price button {
+  border: 1px solid #087f8c;
+  color: #087f8c;
+}
+
+.history-item {
+  display: grid;
+  gap: 4px;
+  border-bottom: 1px solid #edf1f5;
+  padding: 12px 0;
+}
+
+.history-item span {
+  color: #667085;
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .topbar-inner,
+  .offer-card {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .summary-band,
+  .workspace,
+  .search-form {
+    grid-template-columns: 1fr;
+  }
+
+  .history-panel,
+  .search-panel,
+  .results-panel {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .offer-price {
+    justify-items: start;
+  }
+}
